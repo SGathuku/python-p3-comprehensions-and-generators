@@ -5,3 +5,7 @@ def return_evens(num_list):
 
 def make_exclamation(sentence_list):
     return [sentence + '!' for sentence in sentence_list]
+
+
+print(return_evens([0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25]))
+print(make_exclamation(["Hello", "I'm doing great", "Python is fun"]))
